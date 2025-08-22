@@ -1,0 +1,133 @@
+*{
+    /*outline: red solid;*/
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 68px 0px;
+}
+.homebar{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 24px 0px 60px 0px;
+}
+.homebar a,.wellcom p{
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+.homebar h1{
+   font-size: 24px;
+
+}
+.wellcom{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 45%;
+}
+.home-content{
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+}
+.home-content img{
+    width: 45%;
+    flex-shrink: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    list-style: none;
+}
+button{
+    color: white;
+    background-color: #3882f6;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    border-style: none;
+}
+.buttonWB{
+    border: 2px solid white;
+    height: 34px;
+    width: 104px;
+}
+.content{
+    background-color: white;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    padding: 26px 0px 10px 0px ;
+    margin-bottom: 90px;
+}
+.content h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.card{
+    flex-basis: 200px;
+    flex-grow: 0;
+}
+.img{
+    height: 200px;
+    border: 4px #3882f6 solid;
+    border-radius: 12px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 24px;
+}
+.quote span{
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 24px;
+}
+.call{
+    width: 70%;
+    display: flex;
+    padding: 32px 0px;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 6px;
+    margin-bottom: 120px;
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
